@@ -1,0 +1,8 @@
+/* 引入各主题基本样式 */
+@import "./theme-light.scss";
+@import "./theme-dark.scss";
+
+/* 文本字体大小 */
+$font_size_sm: .12rem;
+$font_size_base: .14rem;
+$font_size_lg: .16rem;

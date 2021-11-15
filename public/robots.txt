@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /self/
+
+# 该文件用于在互联网中，控制搜索引擎无法抓取的页面，当页面通过该文件被阻止时，这是死路一条，任何可能跳转该页面的链接值都会丢失。
+# User-agent用于描述搜索引擎蜘蛛的名字，有多条则代表多个搜索引擎蜘蛛会受到该协议的限制。
+# Disallow用于藐视不希望被访问的一个url，可以是一个完整的路径，也可以是部分的。任何一Disallow开头的URL均不会被robot访问到。

@@ -1,0 +1,18 @@
+.theme-light {
+  /* 主题基本色调 */
+  $color_primary: #2dabff;
+  $color_success: #4cd964;
+  $color_warning: #FF9232;
+  $color_error: #FE3813;
+
+  /* 文字的基本颜色 */
+  $text_color: #323232;
+  $text_white: #ffffff;
+  $text_grey: #999999; // 辅助灰色
+  $text_placeholder: #c0c0c0;
+
+  /* 背景颜色 */
+  $bg_white: #ffffff;
+  $bg_grey: #f8f8f8;
+  $bg_hover: #f1f1f1;
+}

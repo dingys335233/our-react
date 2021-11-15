@@ -1,0 +1,18 @@
+{
+  "name": "Our Own React",
+  "short_name": "Study Our React",
+  "manifest_version": "v1.0",
+  "desc": "每一个可扩展，可安装的app、皮肤都有一个manifest文件，里面提供了重要的信息！这里用于Chrome扩展。",
+  "description": "Good good study, day day up!",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

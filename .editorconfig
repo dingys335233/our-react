@@ -1,0 +1,18 @@
+# 编辑器配置文件，用于匹配eslint，方便开发。
+# vscode需要安装editorconfig插件。
+root = true                      # 表示是最顶层的配置文件，发现设置为true时，才会停止查找.editorconfig文件
+
+[*]                              # 匹配所有文件
+charset = utf-8                  # 编码格式为UTF-8
+indent_style = space             # 空格缩进
+indent_size = 2                  # 缩进空格为2个
+end_of_line = lf                 # 文件的换行符是linux的‘\n’
+insert_final_newline = true      # 对于所有的文件，始终在文件末尾插入一个新行
+trim_trailing_whitespace = true  # 不保留行末的空格
+
+[*.js]                           # 匹配所有的js文件
+quote_type= single               # 字符串使用单引号
+
+[*.md]                           # 匹配所有md文件，取消对行末和文件末尾的限制
+insert_final_newline = false
+trim_trailing_whitespace = false
